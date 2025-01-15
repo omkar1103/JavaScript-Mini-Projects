@@ -35,6 +35,30 @@ document.querySelector('.check').addEventListener('click', function () {
         }
     }
 
+    
+
+//     else if(guess>secretNumber){
+//         if(score>0){
+//         document.querySelector('.message').textContent = ' 📈Too High';
+//         score=score-1;  
+//         document.querySelector('.score').textContent=score; 
+//     }
+//     else{
+//         document.querySelector('.message').textContent = ' 👎You Lost the Game';
+//     }
+// }
+
+//     else{
+//         if(score>0){
+//         document.querySelector('.message').textContent = '📉Too Low';
+//         score=score-1;
+//         document.querySelector('.score').textContent=score; 
+//     }
+//     else{
+//         document.querySelector('.message').textContent = ' 👎You Lost the Game';
+
+//     }
+// }
 
 });
 
